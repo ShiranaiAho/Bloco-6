@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Formulario de Curriculo</title>
+</head>
+<body>
+  <header>
+    <h1>Curriculo</h1>
+  </header>
+  <main>
+    <form action="form.html" method="GET">
+      <fieldset>
+        <div>
+          <label>Nome: </label>
+          <input id="name" type="text" maxlength="40" required>
+        </div>
+        <div>
+          <label>E-mail :</label>
+          <input id="email" type="text" maxlength="50" required>
+        </div>
+        <div>
+          <label>CPF: </label>
+          <input id="cpf" type="text" maxlength="11" required>
+        </div>
+        <div>
+          <label>Endereço: </label>
+          <input id="adress" type="text" maxlength="200" required>
+        </div>
+        <div>
+          <label>Cidade: </label>
+          <input id="city" type="text" maxlength="28" required>
+        </div>
+        <div>
+          <label>Estado: </label>
+          <select id="state" required>
+            
+          </select>
+        </div>
+        <div>
+          <label>Tipo: </label>
+          <input type="radio" value="1" name="casa-apartamento" required>Casa
+          <input type="radio" value="2" name="casa-apartamento" required>Apartamento
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <label>Resumo do Curriculo: </label>
+          <textarea required maxlength="1000"></textarea>
+        </div>
+        <div>
+          <label>Cargo: </label>
+          <input id="job" type="text" required maxlength="40">
+        </div>
+        <div>
+          <label>Descrição do cargo: </label>
+          <input id="description" type="text" maxlength="500" required>
+        </div>
+        <div>
+          <label>Data de inicio</label>
+          <input type="text" required id="date">
+        </div>
+      </fieldset>
+      <button id="submit">Enviar</button>
+      <button id="clear">Limpar</button>
+    </form>
+    <div id="curriculum">
+
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
