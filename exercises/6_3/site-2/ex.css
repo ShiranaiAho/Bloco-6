@@ -1,0 +1,102 @@
+/* Exercicio 1 */
+.tower-group-1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Exercicio 2 */
+.tower-group-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+}
+.tower-group-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Exercicio 3 */
+.tower-group-1 {
+  display: flex;
+  justify-content: center;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Exercicio 4 */
+.tower-group-1 {
+  display: flex;
+  align-items: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exercicio 5 */
+.tower-group-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+}
+.tower-group-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+  
+/* Exercicio 6 */
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exercicio 7 */
+.tower-group-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Exercicio 8 */
+.tower-group-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exercicio 9 */
+.tower-group-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
