@@ -11,19 +11,19 @@
     <h1>Curriculo</h1>
   </header>
   <main>
-    <form action="form.html" method="GET">
+    <form id="formulario" action="form.html" method="GET">
       <fieldset>
         <div>
           <label>Nome: </label>
-          <input id="name" type="text" maxlength="40" required>
+          <input id="name" name="fullName" type="text" maxlength="40" required>
         </div>
         <div>
           <label>E-mail :</label>
-          <input id="email" type="text" maxlength="50" required>
+          <input id="email" name="email" type="text" maxlength="50" required>
         </div>
         <div>
           <label>CPF: </label>
-          <input id="cpf" type="text" maxlength="11" required>
+          <input id="cpf" name="cpf" type="text" maxlength="11" required>
         </div>
         <div>
           <label>Endereço: </label>
@@ -36,13 +36,14 @@
         <div>
           <label>Estado: </label>
           <select id="state" required>
-            
           </select>
         </div>
         <div>
           <label>Tipo: </label>
-          <input type="radio" value="1" name="casa-apartamento" required>Casa
-          <input type="radio" value="2" name="casa-apartamento" required>Apartamento
+          <input type="radio" id="casa" value="casa" name="casa-apartamento" required>
+          <label for="casa">Casa</label>
+          <input type="radio"  id="apartamento" value="apart" name="casa-apartamento" required>
+          <label for="apartamento">Apartamento</label>
         </div>
       </fieldset>
 
@@ -64,7 +65,7 @@
           <input type="text" required id="date">
         </div>
       </fieldset>
-      <button id="submit">Enviar</button>
+      <button type="submit" id="submit">Enviar</button>
       <button id="clear">Limpar</button>
     </form>
     <div id="curriculum">
