@@ -118,55 +118,55 @@ align-self: flex-end;
 }
 
 .yellow {
-order: 1;
-align-self: flex-end;
+  order: 1;
+  align-self: flex-end;
 }
 
 /* Exercicio 18 */
 #pond {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /* Exercicio 19 */
 #pond {
   display: flex;
-flex-wrap: wrap;
-flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /* Exercicio 20 */
 #pond {
   display: flex;
-flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 /* Exercicio 21 */
 #pond {
   display: flex;
   flex-wrap: wrap;
-align-content: flex-start;
+  align-content: flex-start;
 }
 
 /* Exercicio 22 */
 #pond {
   display: flex;
   flex-wrap: wrap;
-align-content: flex-end;
+  align-content: flex-end;
 }
 
 /* Exercicio 23 */
 #pond {
   display: flex;
   flex-wrap: wrap;
-flex-direction: column-reverse;
-align-content: center;
+  flex-direction: column-reverse;
+  align-content: center;
 }
 
 /* Exercicio 24 */
 #pond {
   display: flex;
-flex-flow: column-reverse wrap-reverse;
-justify-content: center;
-align-content: space-between;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
 }
